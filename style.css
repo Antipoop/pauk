@@ -3,10 +3,6 @@ header {
     background-color: orange;
     height: 10;
 }
-p {
-    width: 100vh;
-    text-align: -webkit-center;
-}
 body {
     background-color: grey;
     margin-top: 0px;
@@ -21,4 +17,16 @@ div {
 }
 img {
     width: 20%;
+    pointer-events: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+button {
+    color: white;
+    flex: auto;
+    align-self: center;
+    text-align: center;
+    font-size: 200%;
+    background: black;
+    border: 0px;
 }
