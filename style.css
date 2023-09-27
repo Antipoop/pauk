@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    background-color: orange;
+    height: 10%;
+}
+p {
+    width: -webkit-fill-availavle;
+    text-align: -webkit-center;
+}
+body {
+    background-color: grey;
+}
