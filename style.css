@@ -1,7 +1,7 @@
 header {
     display: flex;
     background-color: orange;
-    height: 10%;
+    height: 10;
 }
 p {
     width: 100vh;
