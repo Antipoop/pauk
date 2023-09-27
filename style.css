@@ -42,3 +42,9 @@ button {
     background: white;
     justify-content: left;
 }
+@font-face {
+    font-family: "panic";
+    src: url("./fonts/GhastlyPanicCyr.otf");
+    font-style: normal;
+    font-weight: normal;
+}
