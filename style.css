@@ -9,4 +9,7 @@ p {
 }
 body {
     background-color: grey;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
