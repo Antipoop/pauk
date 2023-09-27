@@ -26,14 +26,17 @@ button {
     flex: auto;
     align-self: center;
     text-align: center;
-    font-size: 200%;
+    font-size: 500%;
     background: black;
     border: 0px;
+    font-family: 'panic';
 }
 .zag {
-    font-size: 300%;
+    font-size: 400%;
     width: 50vh;
     word-break: break-all;
+    font-family: 'panic';
+    padding-left: 5%;
 }
 .text {
     word-break: break-all;
