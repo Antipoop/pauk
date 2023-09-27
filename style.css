@@ -53,6 +53,7 @@ button {
 .text {
     word-break: break-all;
     color: white;
+    z-index: 1;
 }
 .od {
     background: white;
