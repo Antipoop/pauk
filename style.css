@@ -30,3 +30,15 @@ button {
     background: black;
     border: 0px;
 }
+.zag {
+    font-size: 300%;
+    width: 50vh;
+    word-break: break-all;
+}
+.text {
+    word-break: break-all;
+}
+.od {
+    background: white;
+    justify-content: left;
+}
