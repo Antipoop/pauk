@@ -39,8 +39,7 @@ button {
     background: black;
     position: absolute;
     width: 100%;
-    top: 6.7em;
-    height: 7em;
+    height: 100%;
 }
 .zag {
     font-size: 400%;
@@ -53,6 +52,7 @@ button {
 }
 .text {
     word-break: break-all;
+    color: white;
 }
 .od {
     background: white;
