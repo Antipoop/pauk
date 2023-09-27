@@ -11,9 +11,7 @@ body {
 }
 div {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    background: black;
 }
 img {
     width: 20%;
@@ -30,6 +28,14 @@ button {
     background: black;
     border: 0px;
     font-family: 'panic';
+}
+.header {
+    background: black;
+    justify-content: center;
+}
+.bg {
+    filter: blur(1px);
+    opacity: 50%;
 }
 .zag {
     font-size: 400%;
