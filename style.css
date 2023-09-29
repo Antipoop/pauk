@@ -71,6 +71,9 @@ button {
     height: auto;
     z-index: -9999;
   }
+.nav {
+    position: fixed;
+}
 @font-face {
     font-family: "panic";
     src: url("./fonts/GhastlyPanicCyr.otf");
