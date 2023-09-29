@@ -87,12 +87,15 @@ button {
     #menuToggle { 
         display: block;
         position: relative;
-        top: 50px;
-        left: 50px;
-        z-index: 1;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
         -webkit-user-select: none;
         user-select: none;
     }
+nav {
+    width: 20%;
+}
     #menuToggle a { 
         text-decoration: none;
         color: #232323;
@@ -110,9 +113,7 @@ button {
         left: -5px;
         cursor: pointer;
         opacity: 0;
-        /* hide this */ 
         z-index: 2; 
-        /* and place it over the hamburger */ 
         -webkit-touch-callout: none; 
     } 
     /* * Just a quick hamburger */ 
@@ -151,6 +152,7 @@ button {
     #menu { 
         position: absolute; 
         width: 300px; 
+        height: 100vh;
         margin: -100px 0 0 -50px; 
         padding: 50px; 
         padding-top: 125px; 
@@ -164,7 +166,8 @@ button {
     } 
     #menu li { 
         padding: 10px 0; 
-        font-size: 22px; 
+        font-size: 500%; 
+        font-family: 'panic';
     } 
     /* * And let's slide it in from the left */ 
     #menuToggle input:checked ~ ul { 
