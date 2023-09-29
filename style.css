@@ -40,7 +40,8 @@ button {
     width: 50vh;
     word-break: break-all;
     font-family: 'panic';
-    padding-left: 5%;
+    left: 10%;
+    position: relative;
     margin-top: 4vh;
     margin-bottom: 0;
 }
@@ -48,16 +49,14 @@ button {
     word-break: break-all;
     color: white;
     z-index: 1;
+    font-size: x-large;
 }
 .od {
-    background: white;
-    justify-content: left;
     background: url('video/paukvid.mp4');
     background-size: cover;
   }
 .cont {
-    width: 90%;
-    left: 5%;
+    left:10%;
     position: relative;
 }
   
@@ -71,8 +70,9 @@ button {
     height: auto;
     z-index: -9999;
   }
-.nav {
+.navi {
     position: fixed;
+    z-index: 10;
 }
 @font-face {
     font-family: "panic";
@@ -148,7 +148,7 @@ nav {
     /* * Make this absolute positioned * at the top left of the screen */ 
     #menu { 
         position: absolute; 
-        width: 300px; 
+        width: 30vh; 
         height: 100vh;
         margin: -100px 0 0 -50px; 
         padding: 50px; 
@@ -163,7 +163,7 @@ nav {
     } 
     #menu li { 
         padding: 10px 0; 
-        font-size: 500%; 
+        font-size: 10vh; 
         font-family: 'panic';
     } 
     /* * And let's slide it in from the left */ 
@@ -187,17 +187,6 @@ html, body, section {
     align-items: center;
     justify-content: center;
   }
-  
-  section:nth-of-type(even) {
-    color: white;
-    background: black;
-  }
-  
-  section:nth-of-type(odd) {
-    color: black;
-    background: white;
-  }
-  
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
