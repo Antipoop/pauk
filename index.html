@@ -7,14 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head> 
 <body>
-  
-  <div class="header">
-   <button>О нас</button>
-   <button>Студия</button>
-   <img src="img/logowhite.png">
-   <button>Мастера</button>
-   <button>Работы</button>
-  </div>
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+      </ul>
+    </div>
+  </nav>
   <div class="od">
     <video autoplay loop muted class="bgvideo" id="bgvideo">
      <source src="video/paukvid.mp4" type="video/mp4"></source>
