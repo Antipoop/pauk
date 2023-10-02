@@ -13,10 +13,11 @@ body {
     position: relative;
 }
 .zag {
-    top: 10vw;
+    top: -10vw;
     position: absolute;
     left: 10vw;
     font-size: 8vw;
+    font-family: 'panic';
 }
 .container {
     top: 30vw;
@@ -52,6 +53,8 @@ body {
     }
 nav {
     width: 20%;
+    position: fixed;
+    z-index: 1000;
 }
     #menuToggle a { 
         text-decoration: none;
