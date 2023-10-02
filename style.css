@@ -196,3 +196,23 @@ html, body, section {
     margin-left: 0px;
     margin-right: 0px;
   }
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 575.98px) { 
+    .cont {
+        left: 10%;
+        width: 93%;
+        position: relative;
+    }
+ }
+ @media (max-height: 880px) {
+    .cont {
+        left: 10%;
+        width: 99.7%;
+        position: relative;
+    }
+}
