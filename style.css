@@ -14,8 +14,9 @@ body {
 .zag {
     position: absolute;
     left: 10vw;
-    font-size: 15vw;
+    font-size: 26vw;
     font-family: 'panic';
+    top: -21vw;
 }
 .container {
     top: 30vw;
@@ -26,8 +27,9 @@ body {
 .text {
     position: relative;
     z-index: 1;
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     background: rgb(61 61 61 / 70%);
+    font-family: cursive;
     color: white;
 }
 @font-face {
