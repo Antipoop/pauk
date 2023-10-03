@@ -13,10 +13,9 @@ body {
     position: relative;
 }
 .zag {
-    top: -10vw;
     position: absolute;
     left: 10vw;
-    font-size: 8vw;
+    font-size: 15vw;
     font-family: 'panic';
 }
 .container {
@@ -133,3 +132,14 @@ nav {
     #menuToggle input:checked ~ ul { 
         transform: none; 
     }
+    /* bg */
+    .bgvideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -9999;
+      }
