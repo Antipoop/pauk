@@ -60,6 +60,11 @@ nav {
     #menuToggle a:hover { 
         color: tomato;
     }
+    #menuToggle input:hover {
+        span {
+            color: tomato;
+        }
+    }
      #menuToggle input { 
         display: block;
         width: 3vh;
