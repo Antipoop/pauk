@@ -60,11 +60,6 @@ nav {
     #menuToggle a:hover { 
         color: tomato;
     }
-    #menuToggle input:hover {
-        span {
-            color: tomato;
-        }
-    }
      #menuToggle input { 
         display: block;
         width: 3vh;
@@ -108,7 +103,8 @@ nav {
     /* * Ohyeah and the last one should go the other direction */ 
     #menuToggle input:checked ~ span:nth-last-child(2) { 
         transform: rotate(-45deg) translate(0, -1px); 
-    } 
+    }
+    
     /* * Make this absolute positioned * at the top left of the screen */ 
     #menu { 
         position: absolute; 
@@ -157,3 +153,7 @@ nav {
         display: none!important;
         -webkit-appearance: none;
       }
+
+      #menuToggle input:checked ~ span:hover { 
+        background: tomato;
+    }
